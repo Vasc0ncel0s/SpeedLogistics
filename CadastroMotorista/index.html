@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/script.js" defer></script>
+
+
+
+  </head>
+  <body>
+   
+   
+    <div class="main-container">
+      <div class="rectangle">
+        <div class="flex-row-e">
+
+              <!-- Usuário e ícone de menu -->
+            <div class="profile-container">
+
+                <!-- Usuário -->
+              <img src="../img/JoaoBarreto.png" alt="Ícone de Perfil" class="profile-icon" />
+          <div class="image"></div>
+          <div class="image-1"></div>
+          <div class="joao-barreto-admin">
+            <span class="joao-barreto">João Barreto<br /></span
+            ><span class="admin">Admnistrador</span>
+          </div>
+
+
+        <!-- Ícone de menu hambúrguer -->
+        <img src="../img/MenuHamburguer.png" alt="Menu Hambúrguer" class="menu-hamburguer" />
+    </div>
+        </div>
+
+        
+      <!-- Painel --> 
+        <div class="flex-row menu-item">
+            <img src="../img/IconePainel.png" alt="Ícone Painel" />
+            <span class="panel">Painel</span>
+          </div>
+
+<!-- Veículos -->
+          <button class="rectangle-v menu-item">
+            <img src="../img/IconeVeiculo.png" alt="Ícone Veículos" />
+            <span class="vehicles">Veículos</span>
+          </button>
+
+
+ <!-- Motoristas -->
+      
+        <button class="rectangle-3 menu-item">
+          <img src="../img/IconeMotorista.png" alt="Ícone Motoristas" />
+          <span class="span-motoristas">Motoristas</span>
+        </button>
+
+  
+ <!-- Manutenção -->
+        <div class="flex-row-fdb menu-item">
+          <img src="../img/IconeManutencao.png" alt="Ícone Manutenção" />
+          <span class="text-6">Manutenção</span>
+        </div>
+
+ <!-- Infrações -->
+ <div class="flex-row-fa menu-item">
+    <img src="../img/IconeInfracoes.png" alt="Ícone Infrações" />
+    <span class="text-7">Infrações</span>
+  </div>
+
+ <!-- Relatórios -->
+ <div class="flex-row-8 menu-item">
+    <img src="../img/IconeRelatorios.png" alt="Ícone Relatórios" />
+    <span class="text-8">Relatórios</span>
+  </div>
+
+         <!-- Configurações -->
+         <div class="flex-row-daa menu-item">
+            <img src="../img/IConeConfiguracoes.png" alt="Ícone Configurações" />
+            <span class="configuracoes">Configurações</span>
+          </div>
+
+        <!-- Alertas -->
+        <div class="flex-row-fe menu-item">
+            <img src="../img/IconeAlertas.png" alt="Ícone Alertas" />
+            <span class="alertas">Alertas</span>
+          </div>
+  
+          <!-- Sair -->
+          <div class="flex-row-c menu-item">
+            <img src="../img/IconeSair.png" alt="Ícone Sair" />
+            <span class="sair">Sair</span>
+          </div>
+  
+
+
+      </div>
+
+<!-- DarkMode -->
+      <div class="dark-mode-alt"> 
+        <button class="dark-mode-img">
+        <img src="../img/IconeDarkMode.png"  alt="Notificação" class="dark-mode-img"/>
+    </button></div>
+
+      <!-- Título -->
+      <span class="cadastro-de-motorista">Cadastro de Motorista</span>
+      <div class="rectangle-e"><input type="text" class="text-input" /> <div class="image-f"></div></div>
+
+
+<!-- Notificações -->
+      <div class="bell">
+        <button class="bell-img">
+        <img src="../img/IconeNotificacao.png"  alt="Notificação" class="bell-img"/>
+    </button>
+      </div>
+
+
+<!-- Info -->
+      <div class="info">  
+        <button class="info-img">
+        <img src="../img/IconeInfo.png"  alt="Info" class="info-img"/>
+    </button> </div>
+
+
+
+
+<!-- Barra de pesquisa -->
+      <span class="pesquisar"><input type="text"  placeholder="Pesquisar" class="text-input-pesquisar" /></span>
+      <div class="image-10">  </div>
+
+
+
+      <!-- Nome e Status -->
+      <span class="NomeSobrenome">Nome e Sobrenome</span>
+      <span class="status">Status</span>
+      <div class="rectangle-11"><input type="text" class="text-input" /></div>
+      <div class="rectangle-12"> <input type="date" class="text-input" /></div>
+      
+      <div class="rectangle-13"> <div class="image-14"><select class="option-select">
+        <option value="" disabled selected>Selecione...</option> 
+        <option value="ativo">Ativo</option>
+        <option value="inativo">Inativo</option>
+      </select></div> <span class="on-off" id="selected-option">Ativo ou Inativo</span></div>
+
+    
+<!-- Matrícula e DataHabilitação-->
+      <span class="data">Data Habilitação</span>
+      <span class="matricula">Matrícula</span>
+      
+
+
+      <div class="rectangle-15"><input type="text" class="text-input" /></div>
+
+
+
+            <!-- Ícone de anexo de imagem acima do texto "Carregar foto do motorista" -->
+            <div>
+            <label for="file-upload"> 
+                <img src="../img/FotoVeiculo.png" alt="Anexar Foto" class="attach-icon" />
+                <span class="carregar-foto-veiculo">Carregar foto de perfil</span>
+              </label>
+              <input type="file" id="file-upload" class="file-input" /></div>
+
+
+
+
+       <!-- Caixa de texto email -->
+      <span class="email">Email</span>
+      <div class="rectangle-16"><input type="text" class="text-input" /> </div>
+
+<!-- Caixa de texto senha -->
+      <span class="senha">Senha de Acesso</span>
+      
+      <div class="rectangle-17">
+        <input type="text" class="text-input" /></div>
+
+<!-- Caixa de texto habilitação -->
+      <span class="habilitacao">Habilitação</span>
+      <div class="rectangle-19"><input type="text" class="text-input" /></div>
+
+
+<!-- Área de anexo habilitação  -->
+      <span class="attach-habilitacao">Anexar Arquivo da Habilitação</span>
+        <div class="rectangle-1a">
+          <label for="file-upload-habilitacao">
+          <img src="../img/IconeUpload.png" alt="Anexar habilitacao" />
+        </label>
+          <input type="file" id="file-upload-habilitacao" class="file-input" />
+    </div>
+        <span class="pdf-png">* PDF ou PNG</span>
+
+<!-- Cadastrar Veíclo   -->
+
+      <div class="rectangle-1c">
+        <span class="register-motorista">ADICIONAR MOTORISTA</span>
+        <button type="submit" class="register-motorista-button">ADICIONAR MOTORISTA</button>
+      </div>
+    </div>
+  </body>
+</html>
